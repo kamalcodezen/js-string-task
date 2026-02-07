@@ -2,8 +2,8 @@
 
 let name = "kamlauddin Aapnaollege";
 let letter = 0;
-for (let i of name.toLowerCase()) {
-    if (i === "a") {
+for (let i of name) {
+    if (i.toLowerCase() === "a") {
         letter++;
     }
 }
